@@ -11,16 +11,14 @@ a {
     text-decoration: none;
     color: #f4dbdb;
 }
-
-body {
-    background-color: #f4f2ef;
-}
-
-aside {
+button {
+    height: 50px;
+    width: 100px;
     background: #cd4662;
-    padding: 60px 80px;
+    border: 0px;
+    border-bottom: 5px solid #aec289;
+    font-size: 15px;
 }
-
 input {
     padding: 10px;
     font-size: 16px;
@@ -31,6 +29,15 @@ input {
 }
 input::placeholder{
     color: #f4dbdb;
+}
+
+body {
+    background-color: #f4f2ef;
+}
+
+#caixa-1 {
+    display: flex;
+    justify-content: space-between;
 }
 
 header {
@@ -47,37 +54,30 @@ header img{
     border-radius: 30px 0;
     margin: 15px;
 }
-
-nav {
-    font-size: 30px;
-    color: #f4f2ef;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 20px;
+#icon00 {
+    border-radius: 50%;
+}
+#icon00 img{
+    height: 50px;
+    width: 50px;
 }
 
-section img{
-    width: 250px;
-    height: 650px;
-}
 section {
     display: flex;
     flex-direction: row;
 }
 article {
     background-color: #f4dbdb;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 50px;
     border-radius: 10%;
     border-left: 7px solid #aec289;
-    height: 600px;
+    height: 590px;
     width: 500px;
 }
-.bloco1 {
-    padding: 20px;
+form div{
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 .p {
     font-size: 25px;
@@ -86,16 +86,6 @@ article {
     margin-left: 20px;
     color: #cd4662;
     border-bottom: 2px solid #aec289;
-}
-form div{
-    display: flex;
-    align-items: center;
-}
-#bolhinhas {
-    flex-direction: row;
-    gap: 10px;
-    color: #cd4662;
-    font-size: 20px;
 }
 
 .bloco2 {
@@ -107,12 +97,6 @@ form div{
     gap: 10px;
     font-size: 20px;
 }
-
-#caixa-1 {
-    display: flex;
-    justify-content: space-between;
-}
-
 #caixa2 {
     display: flex;
     flex-direction: column;
@@ -158,9 +142,7 @@ form div{
     margin-top: 15px;
     gap: 10px;
     font-size: 20px;
-    
 }
-
 #caixa6 {
     flex-direction: column;
     display: flex;
@@ -176,18 +158,55 @@ form div{
     margin-top: 40px;
 }
 
-button {
-    height: 45px;
-    width: 95px;
-    background: #cd4662;
-    border: 0px;
-    border-bottom: 5px solid #aec289;
-    font-size: 15px;
+aside {
+    gap: 150px;
+    margin-top: 35px;
+    margin-right: 25px;
 }
-/* tipos de borda:
-	 solid (__)
-	 dotted(..)
-	 dashed(--)
-            ><
-	 double(==)
-	*/
+aside div{
+    background-color: #f4dbdb;
+    padding: 10px 30px;
+    display: flex;
+    gap: 5px;
+}
+aside img{
+    height: 140px;
+    width: 140px;
+}
+
+#p1 {
+    display: flex;
+    flex-direction: column;
+}
+#p2 {
+    display: flex;
+    flex-direction: column;
+}
+#p3 {
+    display: flex;
+    flex-direction: column;
+}
+.p1 {
+    color: #cd4662;
+    font-size: 25px;
+    border-bottom: 2px solid #aec289;
+}
+.p_p {
+    font-size: 25px;
+    color: #cd4662;
+}
+.p_ {
+    color: #cd4662;
+    font-size: 20px;
+}
+
+nav {
+    font-size: 30px;
+    color: #f4f2ef;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    background: #cd4662;
+    padding: 65px 70px;
+}
